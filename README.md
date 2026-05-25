@@ -24,16 +24,18 @@ not a binary label, so end users can make informed decisions.
   and structured fields (has_company_logo, telecommuting, employment_type)
 
 ## Repository Structure
+
+```
 MSc-Data-science-Fraud-Job-Detection/
-├── Data/ # raw dataset (fake_job_postings.csv)
-├── Document/ # proposal, meeting log, ethical approval
-├── Models/ # trained model files (.pkl) — populated during modelling phase
-├── Notebook/ # Jupyter notebooks (numbered in run order)
-├── Output/ # generated figures used in the report
+├── Data/               # raw dataset (fake_job_postings.csv)
+├── Document/           # proposal, meeting log, ethical approval
+├── Models/             # trained model files (.pkl) — populated during modelling phase
+├── Notebook/           # Jupyter notebooks (numbered in run order)
+├── Output/             # generated figures used in the report
 ├── .gitignore
 ├── README.md
-└── requirements.txt # Python dependencies
-
+└── requirements.txt    # Python dependencies
+```
 
 ## How to Reproduce
 
@@ -42,6 +44,7 @@ git clone https://github.com/P2gohel/MSc-Data-science-Fraud-Job-Detection.git
 cd MSc-Data-science-Fraud-Job-Detection
 pip install -r requirements.txt
 jupyter notebook Notebook/01_EDA.ipynb
+```
 
 ## Project Status
 
