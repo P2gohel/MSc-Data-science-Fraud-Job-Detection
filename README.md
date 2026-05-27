@@ -23,7 +23,8 @@ not a binary label, so end users can make informed decisions.
 ```
 MSc-Data-science-Fraud-Job-Detection/
 ├── Data/               # raw dataset (fake_job_postings.csv)
-├── Document/           # proposal, meeting log, ethical approval
+├── Document/
+│   └── meeting_log/    # meeting records (markdown)
 ├── Models/             # trained model files (.pkl) — populated during modelling phase
 ├── Notebook/           # Jupyter notebooks (numbered in run order)
 ├── Output/             # generated figures used in the report
@@ -73,11 +74,3 @@ jupyter notebook Notebook/EDA.ipynb
 - Part-time and "Other" employment types have higher fraud rates than full-time
 - Fake postings use distinctive vocabulary (*work from home*, *earn*, *data entry*)
 
-## Author
-
-**Puja Gohel** — MSc Data Science, UWE Bristol  
-GitHub: [@P2gohel](https://github.com/P2gohel)
-
-## License
-
-For academic use only as part of MSc Dissertation submission.
