@@ -1,6 +1,7 @@
 # Meeting 1 — 30 March 2026
 
-**Supervisor:** Alireza
+**Topic:** Project proposal review and refinement
+
 
 ## What We Discussed
 

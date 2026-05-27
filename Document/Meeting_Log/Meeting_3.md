@@ -16,26 +16,15 @@
 
 - Walked through the planned **preprocessing pipeline** (text cleaning, missing value handling, feature engineering)
 - Reviewed the **repository structure** — folder organisation and naming conventions
-- Supervisor recommended keeping the **proposal and ethics form private** (removed from public repo)
-- Supervisor recommended **prioritising the Literature Review chapter** before moving deeper into modelling, as a strong lit review will guide the methodology and benefit the rest of the report
+- keeping the **proposal and ethics form private**
+- **prioritising the Literature Review chapter** before moving deeper into modelling, as a strong lit review will guide the methodology and benefit the rest of the report
 
 ## What I Will Do (Next 4 Weeks)
 
-**Priority — based on supervisor recommendation:**
-- Complete the **Literature Review chapter** (Chapter 2)
-  - Build on the proposal's lit review with deeper critical analysis
-  - Add 5–8 recent references (2022–2025)
-  - Build a comparison table of existing approaches
-  - Clearly identify the research gap this project fills
-
-**Technical work (in parallel):**
-- Build preprocessing pipeline (text cleaning, lemmatisation, missing value handling)
-- Implement baseline Logistic Regression with TF-IDF and `class_weight='balanced'`
-- Implement SVM model with calibrated probabilities
-
-**Repository housekeeping (immediate):**
-- Make repository private and add supervisor as collaborator
-- Remove proposal and ethics form from public repo (keep locally)
+- Start drafting the report, beginning with the literature review chapter
+- Add more recent references to the literature review
+- Build preprocessing pipeline for text cleaning and lemmatisation
+- Train baseline Logistic Regression with TF-IDF
 
 ## Key Findings Shared
 
