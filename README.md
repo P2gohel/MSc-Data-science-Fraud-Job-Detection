@@ -22,15 +22,14 @@ not a binary label, so end users can make informed decisions.
 
 ```
 MSc-Data-science-Fraud-Job-Detection/
-├── Data/               # raw dataset (fake_job_postings.csv)
+├── Code/                  # Notebooks 
+├── Data/                  # raw dataset
 ├── Document/
-│   └── meeting_log/    # meeting records (markdown)
-├── Models/             # trained model files (.pkl) — populated during modelling phase
-├── Notebook/           # Jupyter notebooks (numbered in run order)
-├── Output/             # generated figures used in the report
+│   └── Meeting_Log/       # meeting records (markdown)
+├── Output/                # generated figures 
 ├── .gitignore
 ├── README.md
-└── requirements.txt    # Python dependencies
+└── requirements.txt       # Python dependencies
 ```
 
 ## How to Reproduce
@@ -39,7 +38,7 @@ MSc-Data-science-Fraud-Job-Detection/
 git clone https://github.com/P2gohel/MSc-Data-science-Fraud-Job-Detection.git
 cd MSc-Data-science-Fraud-Job-Detection
 pip install -r requirements.txt
-jupyter notebook Notebook/EDA.ipynb
+jupyter notebook Code/EDA.ipynb
 ```
 
 ## Project Status
