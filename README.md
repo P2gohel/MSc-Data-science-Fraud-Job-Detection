@@ -1,10 +1,5 @@
 # Detecting Fraudulent Job Postings: A Comparative Machine Learning Approach
 
-**MSc Data Science Dissertation**  
-Puja Gohel | Student ID: 25020509  
-Supervisor: Alireza  
-University of the West of England
-
 ---
 
 ## Project Overview
@@ -43,7 +38,7 @@ MSc-Data-science-Fraud-Job-Detection/
 git clone https://github.com/P2gohel/MSc-Data-science-Fraud-Job-Detection.git
 cd MSc-Data-science-Fraud-Job-Detection
 pip install -r requirements.txt
-jupyter notebook Notebook/01_EDA.ipynb
+jupyter notebook Notebook/EDA.ipynb
 ```
 
 ## Project Status
@@ -51,6 +46,7 @@ jupyter notebook Notebook/01_EDA.ipynb
 - [x] Proposal approved
 - [x] Ethical approval submitted
 - [x] Exploratory Data Analysis
+- [ ] Literature Review chapter (in progress)
 - [ ] Preprocessing pipeline
 - [ ] Baseline Logistic Regression
 - [ ] SVM model
