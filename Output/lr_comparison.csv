@@ -1,0 +1,4 @@
+Model,Accuracy %,Fraud Precision %,Fraud Recall %,Fraud F1 %,AUC-ROC
+LR - Baseline,97.26,98.7,43.93,60.8,0.9814
+LR - Class Weighting,95.72,53.4,90.75,67.24,0.9887
+LR - SMOTE,97.18,65.13,89.6,75.43,0.9899
