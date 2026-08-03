@@ -1,4 +1,4 @@
-# Meeting 4 — July 2026
+# Meeting 4 — 22 June 2026
 
 **Topic:** Literature review and preprocessing review
 
