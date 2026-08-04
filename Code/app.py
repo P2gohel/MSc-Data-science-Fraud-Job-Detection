@@ -28,12 +28,14 @@ def load_model():
         model = joblib.load('../Model/lr_model.pkl')
         tfidf = joblib.load('../Model/tfidf_vectorizer.pkl')
         feature_names = joblib.load('../Model/feature_names.pkl')
-        return model, tfidf, feature_names
+        background = joblib.load('../Model/shap_background.pkl')
+        explainer = shap.LinearExplainer(model, background)
+        return model, tfidf, feature_names, explainer
     except Exception as e:
         st.error(f"Failed to load model: {e}")
         st.stop()
 
-model, tfidf, feature_names = load_model()
+model, tfidf, feature_names, explainer = load_model()
 
 lemmatizer = WordNetLemmatizer()
 stop_words = set(stopwords.words('english'))
@@ -81,7 +83,6 @@ if st.button("Check posting", type="primary"):
         score = model.predict_proba(x)[0, 1]
 
         #Shap explanation for this posting
-        explainer = shap.LinearExplainer(model, x)
         sv = explainer.shap_values(x)[0]
         present = x.toarray().flatten() != 0
         contrib = pd.DataFrame({
@@ -92,11 +93,11 @@ if st.button("Check posting", type="primary"):
         #Show the score
         pct = score * 100
         if score >= 0.6:
-            st.error(f"### {pct:.1f}% - Likely fraudulent")
+            st.error(f"### Fraud risk: {pct:.1f}% - Likely fraudulent")
         elif score >= 0.4:
-            st.warning(f"### {pct:.1f}% - Uncertain, review carefully")
+            st.warning(f"### Fraud risk: {pct:.1f}% - Uncertain, review carefully")
         else:
-            st.success(f"### {pct:.1f}% - Likely legitimate")
+            st.success(f"### Fraud risk: {pct:.1f}% - Likely legitimate")
 
 
         st.progress(float(score))
