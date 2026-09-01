@@ -111,7 +111,7 @@ if st.button("Check posting", type="primary"):
                 for _, r in fraud_words.iterrows():
                     st.markdown(f" 🔴 {r['feature']}")
             else:
-                st.caption("None detected")
+                st.caption("None Detected")
         with c2:
             st.markdown("**Signs of legitimacy**")
             real_words = contrib[contrib['shap'] < 0].nsmallest(8, 'shap')
@@ -122,4 +122,4 @@ if st.button("Check posting", type="primary"):
                 st.caption("None Detected")
 
         st.caption("Model: Logistic Regression with class weighting | "
-                   "Fraud recall 90.8% | AUC-ROC 0.989")
+                   "Fraud recall 91.3% | AUC-ROC 0.989")
