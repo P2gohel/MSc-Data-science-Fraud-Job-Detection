@@ -1,9 +1,13 @@
 pandas
 numpy
+scipy
 matplotlib
 seaborn
 scikit-learn
+imbalanced-learn
 wordcloud
 nltk
+shap
+streamlit
 jupyter
 joblib
