@@ -97,6 +97,7 @@ MSc-Data-science-Fraud-Job-Detection/
 
 ## Running the Prototype
 
+
 ```bash
 pip install -r requirements.txt
 cd Code
