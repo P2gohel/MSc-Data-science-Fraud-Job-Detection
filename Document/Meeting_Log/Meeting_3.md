@@ -17,7 +17,7 @@
 - Walked through the planned **preprocessing pipeline** (text cleaning, missing value handling, feature engineering)
 - Reviewed the **repository structure** — folder organisation and naming conventions
 - keeping the **proposal and ethics form private**
-- **prioritising the Literature Review chapter** before moving deeper into modelling, as a strong lit review will guide the methodology and benefit the rest of the report
+- **prioritising the Literature Review chapter** before moving deeper into modelling, as a strong literature review will guide the methodology and benefit the rest of the report
 
 ## What I Will Do (Next 4 Weeks)
 
@@ -26,7 +26,7 @@
 - Build preprocessing pipeline for text cleaning and lemmatisation
 - Train baseline Logistic Regression with TF-IDF
 
-## Key Findings Shared
+## Key Findings 
 
 1. **Severe class imbalance** — 4.84% fraud (866 of 17,880)
 2. **`has_company_logo`** is the strongest single signal of legitimacy

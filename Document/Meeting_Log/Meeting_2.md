@@ -6,7 +6,7 @@
 
 - Revised title, objectives, outcomes, aim and scope
 - Replaced and verified all references
-- Rewrote literature review with proper gap analysis
+- Rewrote literature review with proper researchgap analysis
 - Updated testing and evaluation section
 
 ## What I Will Do (Next 2 Weeks)
